@@ -1,4 +1,4 @@
-﻿// ДЗ Задача №8 ввести все четные числа от 1 до N
+﻿// ДЗ Задача №8 ввести все четные числа от 1 до N 
 Console.Write("Введите число: ");
 string userInput1 = Console.ReadLine() ?? "";
 int num1 = int.Parse(userInput1);
