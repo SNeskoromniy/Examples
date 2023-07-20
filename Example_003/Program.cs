@@ -1,2 +1,3 @@
-﻿Console.WriteLine("Пример 3");
-Правка с GitHub
+﻿Console.Write("Введите число:");
+string userInput = Console.Readline();
+int number = int.Parse(userInput);
