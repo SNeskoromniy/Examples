@@ -13,22 +13,14 @@ int num3 = int.Parse(userInput3);
 
 int max = num1; //Присваиваем max число А
 
-if (max > num2) //Сравниваем A c B
+if (max < num2) //Сравниваем A c B
 {
-    if (max > num3) //Сравниваем А с С
-    {
-        Console.Write($" max= {max}");
-    }
-    else
-    {
-        max = num3; //Если С больше А мах = С
-    }
+    max = num2; //Если B больше А мах = B
 }
-else if (num2 > num3)
+
+if (max < num3) // Сравниваем мах с С 
 {
-    Console.Write($" max= {num2}"); //Выводим ммаксимальное число
+    max = num3; //Если C больше мах то  мах = С
 }
-else
-{
-    Console.Write($" max= {num3}"); //Выводим ммаксимальное число
-}
+
+Console.Write($" max= {max}"); //Выводим ммаксимальное число
